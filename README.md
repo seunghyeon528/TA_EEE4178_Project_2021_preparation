@@ -6,14 +6,12 @@ For Poor little next TA
 * Original dataset comprises two file => Font directory containing font images and train.csv
 ```bash
 ├── Font
-│   ├── Font
-│   │  ├── Sample008
-│   │  └── Sample003
-├── code
-│   ├── train.py
-│   ├── classify.py
-│   ├── model.py
-│   └── dataset.py
-└── run.sh
+   ├── Font
+   ├── Sample008
+   └── Sample003
+             '
+             '  
+             '
+├── train.csv
 ``` 
 * Label : not font, character (a/ b/ c/ ,,, similar to EMNIST) 
