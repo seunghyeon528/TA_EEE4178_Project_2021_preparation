@@ -21,8 +21,22 @@ For Poor little next TA
 * delete_list = ["c", "k", "l", "O", "p", "s", "v", "w", "x", "z"]
 * After deletion, number of total class would be 62 -> 52 (10 reduced)
 * After run the python code, 'by_merge.csv' file will be located in root directory.
+
+
+## 2. Png2npy.py
+* convert png -> npy
+* Resize ?x? -> 90 x 90
+* Normalize -> 0-1 scaled
+* After run the python code, 'Font_npy_90' file will be located in the root directory.
 ~~~
-python by_merge.py
+python png2npy.py --90
 ~~~
 
-## 2. 
+## 3. Split train & Test & Valid data
+* make each set of data disjoint per each class.
+* After run the python code, 'Font_npy_90_train','Font_npy_90_train','Font_npy_90_test' will be generated. 
+~~~
+split_train_val_test.py --90
+~~~
+
+
