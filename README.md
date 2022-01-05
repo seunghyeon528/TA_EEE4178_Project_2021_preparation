@@ -17,10 +17,12 @@ For Poor little next TA
 * Label : not font, character (a/ b/ c/ ,,, similar to EMNIST) 
 
 ## 1. By_Merge.py
-* merge characters that are difficult to distinguish between uppercase and lowercase letters. 
+* delete one of uppercase letter or lower case letter of characters that are difficult to distinguish between uppercase and lowercase letters. 
 * delete_list = ["c", "k", "l", "O", "p", "s", "v", "w", "x", "z"]
-* After merge, number of total class would be 62 -> 52 (10 reduced)
+* After deletion, number of total class would be 62 -> 52 (10 reduced)
 * After run the python code, 'by_merge.csv' file will be located in root directory.
 ~~~
 python by_merge.py
 ~~~
+
+## 2. 
