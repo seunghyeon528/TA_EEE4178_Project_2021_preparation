@@ -22,12 +22,12 @@ For Poor little next TA
 * After deletion, number of total class would be 62 -> 52 (10 reduced)
 * After run the python code, 'by_merge.csv' file will be located in root directory.
 
-
 ## 2. Png2npy.py
 * convert png -> npy
 * Resize ?x? -> 90 x 90
 * Normalize -> 0-1 scaled
 * After run the python code, 'Font_npy_90' file will be located in the root directory.
+* Preprocessed Dataset can be downloaded from TA_EEE4178_Project_2021
 ~~~
 python png2npy.py --90
 ~~~
