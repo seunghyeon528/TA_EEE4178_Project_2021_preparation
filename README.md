@@ -32,7 +32,7 @@ For Poor little next TA
 python png2npy.py --90
 ~~~
 
-## 3. Split train & Test & Valid data
+## 3. Split Train & Test & Valid data
 * make each set of data disjoint per each class.
 * After run the python code, 'Font_npy_90_train','Font_npy_90_train','Font_npy_90_test' will be generated. 
 ~~~
