@@ -27,14 +27,14 @@ For Poor little next TA
 * Resize ?x? -> 90 x 90
 * Normalize -> 0-1 scaled
 * After run the python code, 'Font_npy_90' file will be located in the root directory.
-* Preprocessed Dataset can be downloaded from TA_EEE4178_Project_2021
 ~~~
 python png2npy.py --90
 ~~~
 
 ## 3. Split Train & Test & Valid data
 * make each set of data disjoint per each class.
-* After run the python code, 'Font_npy_90_train','Font_npy_90_train','Font_npy_90_test' will be generated. 
+* After run the python code, 'Font_npy_90_train','Font_npy_90_train','Font_npy_90_test' will be generated.
+* * Preprocessed Dataset can be downloaded from TA_EEE4178_Project_2021 
 ~~~
 split_train_val_test.py --90
 ~~~
