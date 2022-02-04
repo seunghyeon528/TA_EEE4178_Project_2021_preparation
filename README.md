@@ -1,5 +1,5 @@
 # TA_EEE4178_Project_2021_preparation
-For Poor little next TA
+For Poor little next TA, glottis home/lsh/temp_code
 
 ## 0. Original Data preparation
 * I downloaded dataset from kaggle, but cannot find it anymore.
